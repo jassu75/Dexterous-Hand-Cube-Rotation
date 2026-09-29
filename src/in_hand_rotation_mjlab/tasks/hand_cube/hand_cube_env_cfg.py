@@ -548,7 +548,7 @@ def make_hand_cube_embodiment_env_cfg(
         func=hand_cube_mdp.randomize_shared_contact_friction,
         mode="reset",
         params={
-            "friction_range": (0.6, 1.4),
+            "friction_range": (0.4, 1.8),
             "hand_cfg": SceneEntityCfg("robot", geom_names=(".*",)),
             "cube_cfg": SceneEntityCfg("cube", geom_names=("cube_geom",)),
             "axes": (0,),
@@ -558,7 +558,7 @@ def make_hand_cube_embodiment_env_cfg(
         func=hand_cube_mdp.randomize_body_mass,
         mode="reset",
         params={
-            "mass_range": (0.7, 1.4),
+            "mass_range": (0.5, 2.0),
             "distribution": "uniform",
             "operation": "scale",
             "asset_cfg": SceneEntityCfg("cube", body_names=("cube",)),
