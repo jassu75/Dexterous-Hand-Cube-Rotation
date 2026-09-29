@@ -1,0 +1,45 @@
+{
+  "os":  "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.12.3",
+  "startedAt":  "2026-09-28T00:16:36.855665Z",
+  "args":  [
+    "Mjlab-Leap-Left-HandCube-Rotate",
+    "--env.scene.num-envs",
+    "4096"
+  ],
+  "program":  "/workspace/csci645-in-hand-rotation/scripts/train.py",
+  "codePath":  "scripts/train.py",
+  "codePathLocal":  "scripts/train.py",
+  "git":  {
+    "remote":  "https://github.com/DanielTakeshi/csci645-in-hand-rotation.git",
+    "commit":  "6a7fe88b3d6ef19647f616d60e3937e76902cae7"
+  },
+  "email":  "tejaskangodbusiness@gmail.com",
+  "root":  "/workspace/csci645-in-hand-rotation",
+  "host":  "5f5e916b4e11",
+  "executable":  "/workspace/csci645-in-hand-rotation/.venv/bin/python",
+  "cpu_count":  48,
+  "cpu_count_logical":  96,
+  "gpu":  "NVIDIA GeForce RTX 4090",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "64424509440",
+      "used":  "1431736320"
+    }
+  },
+  "memory":  {
+    "total":  "270080335872"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4090",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  16384,
+      "architecture":  "Ada",
+      "uuid":  "GPU-7becf5e2-b665-12ae-97bd-fb069dd16e73"
+    }
+  ],
+  "cudaVersion":  "13.2",
+  "writerId":  "u3kqrcsfmdgs35nuraa91idl1ccirjgu"
+}
