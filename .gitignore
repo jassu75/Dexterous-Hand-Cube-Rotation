@@ -45,13 +45,6 @@ env/
 # MuJoCo
 *.mjb
 
-# Training outputs
-logs/
-runs/
-checkpoints/
-wandb/
-tensorboard/
-
 # System
 .DS_Store
 Thumbs.db
