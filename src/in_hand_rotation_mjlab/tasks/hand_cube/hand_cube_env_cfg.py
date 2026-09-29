@@ -216,11 +216,11 @@ def make_hand_cube_inhand_rotate_env_cfg() -> ManagerBasedRlEnvCfg:
         "drift_outside_factor": 0.1,
       },
     ),
-    # "fingertip_contact": RewardTermCfg(
-    #   func=hand_cube_mdp.fingertip_cube_contact_fraction,
-    #   weight=0.1,
-    #   params={"sensor_name": "fingertip_cube_contact"},
-    # ),
+    "fingertip_contact": RewardTermCfg(
+      func=hand_cube_mdp.fingertip_cube_contact_fraction,
+      weight=0.1,
+      params={"sensor_name": "fingertip_cube_contact"},
+    ),
     "object_linvel_penalty": RewardTermCfg(
       func=hand_cube_mdp.object_linvel_l1,
       weight=-0.3,
